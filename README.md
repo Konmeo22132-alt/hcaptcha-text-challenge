@@ -50,17 +50,19 @@ Clone repository và cài đặt các thư viện phụ thuộc:
 git clone [https://github.com/Konmeo22132-alt/hcaptcha-text-challenge.git](https://github.com/Konmeo22132-alt/hcaptcha-text-challenge.git)
 cd hcaptcha-text-challenge
 npm install puppeteer
+```
 
 3. Cấu hình API Key
 Mở file code chính (ví dụ index.js), tìm đến dòng cấu hình và dán API Key của bạn vào:
-// Configuration section
+```json
 const GROQ_API_KEY = 'gsk_...YOUR_KEY_HERE...'; 
 const MODEL = 'openai/gpt-oss-20b'; // Hoặc model khác tùy chọn
-
+```
 🚀 Hướng dẫn sử dụng
 Chạy lệnh sau trong terminal để khởi động tool:
+```javascript
 node index.js
-
+```
 Quá trình diễn ra:
  * Trình duyệt Chromium sẽ mở lên (chế độ có giao diện).
  * Tự động truy cập trang Demo của hCaptcha.
@@ -86,13 +88,17 @@ VUI LÒNG ĐỌC KỸ:
  * Tuân thủ quy định: Người sử dụng chịu hoàn toàn trách nhiệm về việc tuân thủ các Điều khoản Dịch vụ (Terms of Service) của các trang web mục tiêu.
  * Không khuyến khích lạm dụng: Tác giả không chịu trách nhiệm cho bất kỳ hành vi sử dụng công cụ này vào mục đích spam, tấn công hệ thống, hoặc các hoạt động bất hợp pháp khác.
  * Bản quyền: hCaptcha là thương hiệu của Intuition Machines, Inc. Dự án này không có liên kết với hCaptcha.
-🤝 Đóng góp
-Mọi sự đóng góp (Pull Requests) nhằm cải thiện hiệu suất, tối ưu hóa Prompt hoặc sửa lỗi đều được hoan nghênh!
- * Fork dự án.
- * Tạo branch mới (git checkout -b feature/AmazingFeature).
- * Commit thay đổi (git commit -m 'Add some AmazingFeature').
- * Push lên branch (git push origin feature/AmazingFeature).
- * Mở Pull Request.
+## 📬 Liên hệ & Hỗ trợ (Contact & Support)
+
+Bạn có câu hỏi về kỹ thuật, báo lỗi hoặc muốn hợp tác? Đừng ngần ngại kết nối với tôi. Tôi thường phản hồi trong vòng 24 giờ.
+
+| Nền tảng | Username / Link | Trạng thái | Hành động |
+| :--- | :--- | :--- | :--- |
+| **Discord** | `konmeo22132` | ![Online](https://img.shields.io/badge/Status-Active-success?style=flat-square) | **Add Friend** |
+| **Telegram** | **[@konmeo22132](https://t.me/konmeo22132)** | ![Available](https://img.shields.io/badge/Response-Fast-blue?style=flat-square) | **[Gửi tin nhắn](https://t.me/konmeo22132)** |
+
+> **Lưu ý:** Đối với các vấn đề lỗi (bugs), vui lòng tạo [Issue](https://github.com/Konmeo22132-alt/hcaptcha-text-challenge/issues) trên GitHub để dễ dàng theo dõi.
+
 Author: Konmeo22132
 License: MIT
 

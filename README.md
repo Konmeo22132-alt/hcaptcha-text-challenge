@@ -1,4 +1,5 @@
-
+Vấn đề trong hình bạn gửi là do thiếu dấu đóng block code (```) sau lệnh npm install puppeteer. Điều này khiến toàn bộ phần văn bản phía dưới (Cấu hình, Hướng dẫn sử dụng...) bị trình duyệt hiểu lầm là code và gộp chung vào cái khung xám đó.
+Dưới đây là bản đã sửa lỗi, mình đã tách bạch rõ ràng các đoạn code và văn bản. Bạn hãy copy toàn bộ nội dung trong khung dưới đây và dán đè vào file README.md nhé:
 # 🤖 hCaptcha Text Challenge Solver (Puppeteer + Groq AI)
 
 ![Node.js](https://img.shields.io/badge/Node.js-v18%2B-43853D?style=flat&logo=node.js&logoColor=white)
@@ -48,8 +49,8 @@ Khác với các phương pháp truyền thống dựa vào nhận diện hình 
 Clone repository và cài đặt các thư viện phụ thuộc:
 
 ```bash
-git clone [https://github.com/username/hcaptcha-text-solver.git](https://github.com/username/hcaptcha-text-solver.git)
-cd hcaptcha-text-solver
+git clone https://github.com/Konmeo22132-alt/hcaptcha-text-challenge.git
+cd hcaptcha-text-challenge
 npm install puppeteer
 
 3. Cấu hình API Key
@@ -87,6 +88,13 @@ VUI LÒNG ĐỌC KỸ:
  * Tuân thủ quy định: Người sử dụng chịu hoàn toàn trách nhiệm về việc tuân thủ các Điều khoản Dịch vụ (Terms of Service) của các trang web mục tiêu.
  * Không khuyến khích lạm dụng: Tác giả không chịu trách nhiệm cho bất kỳ hành vi sử dụng công cụ này vào mục đích spam, tấn công hệ thống, hoặc các hoạt động bất hợp pháp khác.
  * Bản quyền: hCaptcha là thương hiệu của Intuition Machines, Inc. Dự án này không có liên kết với hCaptcha.
-Author: Konmeo22132.
+🤝 Đóng góp
+Mọi sự đóng góp (Pull Requests) nhằm cải thiện hiệu suất, tối ưu hóa Prompt hoặc sửa lỗi đều được hoan nghênh!
+ * Fork dự án.
+ * Tạo branch mới (git checkout -b feature/AmazingFeature).
+ * Commit thay đổi (git commit -m 'Add some AmazingFeature').
+ * Push lên branch (git push origin feature/AmazingFeature).
+ * Mở Pull Request.
+Author: Konmeo22132
 License: MIT
 
